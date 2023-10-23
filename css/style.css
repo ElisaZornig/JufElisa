@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Mulish&family=Roboto+Mono:wght@300&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    padding: 0;
+}
+
+p {
+    line-height: 1.5;
+    padding: 1rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+nav {
+    display: flex;
+    gap: 0.5vw;
+    background-color: #B0B8C2;
+    color: #665D52;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #665D52;
+    padding: 0.7rem 1rem;
+    border: 2px solid #B0B8C2;
+    text-align: center;
+    margin: 0.3rem;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #392c26;
+    background-color: #FCF3E9;
+    text-align: center;
+    padding: 0.7rem 1rem;
+    border: 2px solid #FCF3E9;
+    border-radius: 2rem;
+
+}
+
+header {
+    text-align: center;
+    padding: 20vh;
+    background-image: url(../images/jufelisa.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.headerlinks {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #EDDDC1;
+    background-color: #634B41;
+    text-align: center;
+    padding: 0.7rem 1rem;
+    border: 2px solid #634B41;
+    border-radius: 2rem;
+}
+
+
+
+.games-container {
+    display: flex;
+    gap: 30px;
+    width: 60vw;
+    align-content: center;
+}
+
+.games-container article {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    padding: 1vw;
+    border: 1px solid #000000;
+    border-radius: 1vw;
+    max-width: 100vw;
+    justify-content: space-between;
+    transition: all 0.3s ease-in-out;
+}
+
+.games-container article img {
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+    border-radius: 1vw;
+}
+
+.games-container article h3 {
+    margin-bottom: 0;
+}
+
+.games-container article:hover {
+    box-shadow: 10px 10px 5px #634B41;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.games-container article a {
+    text-decoration: none;
+    color: #EDDDC1;
+    background-color: #634B41;
+    text-align: center;
+    padding: 0.7rem 1rem;
+    border: 2px solid #634B41;
+    border-radius: 2rem;
+    margin: 0.5rem;
+
+}
+
+.doelen {
+    display: flex;
+    gap: 30px;
+    width: 60vw;
+    align-content: center;
+}
+
+.doelen article {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    padding: 1vw;
+    border: 1px solid #000000;
+    border-radius: 1vw;
+    max-width: 100vw;
+    justify-content: space-between;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+.doelen article img {
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+    border-radius: 1vw;
+}
+
+.doelen article h3 {
+    margin-bottom: 0;
+}
+
+.doelen article:hover {
+    box-shadow: 10px 10px 5px #634B41;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.doelen article a {
+    text-decoration: none;
+    color: #EDDDC1;
+    background-color: #634B41;
+    text-align: center;
+    padding: 0.7rem 1rem;
+    border: 2px solid #634B41;
+    border-radius: 2rem;
+    margin: 0.5rem;
+
+}
+
+.stars {
+    font-size: 1.5rem;
+    margin: 0;
+    color: orange;
+}
+
+/* Hier begint de form */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.formfield {
+    display: flex;
+    gap: 1rem;
+    flex: 1;
+}
+
+.formfieldrow {
+    display: flex;
+    flex-direction: column;
+    flex: 1
+}
+
+input {
+    font-size: 1em;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 2px #b3b9c6 solid;
+}
+
+label {
+    color: #433028;
+    font-weight: bolder;
+}
+
+select {
+    font-size: 1em;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 2px #b3b9c6 solid;
+}
+
+textarea {
+    font-size: 1em;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 2px #b3b9c6 solid;
+}
+
+button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    height: 3.5rem;
+    border: 0;
+    background-color: #634B41;
+    color: #e7d6cc;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #433028;
+    color: #e7d6cc;
+}
+
+.form {
+    background-color: #E8D2BE;
+    display: flex;
+    margin-top: 2rem;
+}
+
+input:focus:invalid {
+    border: 3px solid red;
+}
+
+input:valid {
+    border: 3px solid green;
+}
+
+textarea:focus:invalid {
+    border: 3px solid red;
+}
+
+textarea:valid {
+    border: 3px solid green;
+}
+
+select:focus:invalid {
+    border: 3px solid red;
+}
+
+select:valid {
+    border: 3px solid green;
+}
+
+/* hiereindigt de form*/
+
+footer {
+    background-color: #B0B8C2;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer p {
+    padding: 0 2rem;
+}
+
+article p {
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 480px) {
+
+    nav {
+        display: flex;
+        gap: 0;
+        flex-direction: column;
+        max-width: 100vw;
+    }
+
+    .games-container {
+        display: flex;
+        gap: 2vw;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav a:checked {
+        text-decoration: none;
+        color: #392c26;
+        background-color: #A2897A;
+        text-align: center;
+        padding: 0.7rem 1rem;
+        width: 100vw;
+
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #EDDDC1;
+        padding: 0.7rem 0;
+        border: 2px solid #634B41;
+        text-align: center;
+        margin: 0;
+        width: 100vw;
+    }
+
+    article {
+        max-width: 90vw;
+        margin: 0;
+    }
+
+    header {
+        max-width: 100vw;
+        padding: 1rem;
+    }
+
+    form {
+        max-width: 90vw;
+    }
+
+    input {
+        flex-shrink: 1;
+    }
+
+    .formfield {
+        display: flex;
+        gap: 1rem;
+        flex: 1;
+        flex-direction: column;
+    }
+
+    .formfieldrow {
+        display: flex;
+        flex-direction: column;
+        flex: 1
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}
